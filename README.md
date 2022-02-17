@@ -74,9 +74,10 @@ urllib3==1.26.8
 https://github.com/youtube/api-samples/blob/master/python/search.py  
 
 ・コーディングに関してはこちらのコードをほぼ流用。  
-・修正点としてはpython2系のコードから3系のコードに修正
-・コマンドライン引数を仕様に合うように修正
-・APIキーをコードに直接書かないように設定ファイルに隔離
+・修正点としてはpython2系のコードから3系のコードに修正  
+・コマンドライン引数を仕様に合うように修正  
+・APIキーをコードに直接書かないように設定ファイルに隔離  
+・検索結果を動画タイトルとIDだけを表示するように修正  
 
 https://developers.google.com/youtube/v3/docs/  
-・APIリファレンス
+・APIリファレンス  
