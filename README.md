@@ -4,7 +4,7 @@
 指定されたキーワードを使ってYouTubeの動画を検索し、動画タイトルと動画idを最大50件、リストで出力するスクリプト
 
 ## 使い方
-1. 設定ファイル(setting.ini)のSETTINGセクションにAPIキーを記述する
+1. 設定ファイル(setting.ini)をtemplateからコピーして、searchデイレクトリに置き、SETTINGセクションにAPIキーを記述する
 1. コマンドラインで下記の要領でスクリプト呼び出し
 ```
 python search 検索キーワード
