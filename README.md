@@ -69,3 +69,14 @@ six==1.16.0
 sqlparse==0.4.1  
 uritemplate==4.1.1  
 urllib3==1.26.8  
+
+## 参考URL
+https://github.com/youtube/api-samples/blob/master/python/search.py  
+
+・コーディングに関してはこちらのコードをほぼ流用。  
+・修正点としてはpython2系のコードから3系のコードに修正
+・コマンドライン引数を仕様に合うように修正
+・APIキーをコードに直接書かないように設定ファイルに隔離
+
+https://developers.google.com/youtube/v3/docs/  
+・APIリファレンス
