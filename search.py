@@ -49,7 +49,5 @@ if __name__ == "__main__":
         youtube_search(args)
     except HttpError as e:
         print("An HTTP error %d occurred:\n%s" % (e.resp.status, e.content))
-    except KeyError as e:
-        print(e)
     finally:
         print("スクリプトを終了します")
